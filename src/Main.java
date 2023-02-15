@@ -2,6 +2,22 @@
 public class Main {
     public static void main(String[] args) {
 
+        Task1();
+        Task2();
+        Task3();
+        Task4();
+        Task5();
+        Task6();
+        Task7();
+        Task8();
+      Task6Ext();
+      Task7Ext();
+      Task8Ext();
+
+    }
+
+    public static void Task1()
+    {
         System.out.println("Задача 1");
 
         int varInt          = 2147483646;
@@ -18,7 +34,9 @@ public class Main {
         System.out.println("Значение переменной varFloat  с типом Float   равно " + varFloat);
         System.out.println("Значение переменной varDouble с типом Double  равно " + varDouble);
         System.out.println();
-
+    }
+    public static void Task2()
+    {
         System.out.println("Задача 2");
 
         float varFloat_2    = 27.12f;
@@ -29,7 +47,9 @@ public class Main {
         char varChar        = 27897;
         byte varByte_2      = 67;
         System.out.println();
-
+    }
+    public static void Task3()
+    {
         System.out.println("Задача 3");
 
         int studentLP = 23;
@@ -42,7 +62,9 @@ public class Main {
         int sheetsForStudent = paperSheets/studentSum;
         System.out.println("На каждого ученика рассчитано " + sheetsForStudent + " листов бумаги");
         System.out.println();
-
+    }
+    public static void Task4()
+    {
         System.out.println("Задача 4");
 
         int makingBottlesTwoMin = 16;
@@ -58,7 +80,9 @@ public class Main {
         System.out.println("За 3 дня машина произвела " + makingBottlesThreeDay + " штук бутылок");
         System.out.println("За месяц машина произвела " + makingBottlesOneMonth + " штук бутылок");
         System.out.println();
-
+    }
+    public static void Task5()
+    {
         System.out.println("Задача 5");
 
         int paintSum = 120;
@@ -72,7 +96,9 @@ public class Main {
         System.out.println("В школе, где " + classSum + " классов, нужно " + needWhitePaintForAllClass +
                 " банок белой краски и " + needBrownPaintForAllClass + " банок коричневой краски");
         System.out.println();
-
+    }
+    public static void Task6()
+    {
         System.out.println("Задача 6");
 
         int quantBanan = 5;
@@ -96,7 +122,9 @@ public class Main {
         System.out.println("Вес данного рецепта завтрака для спортсменов состовляет "
                 + weightBreakfastGr + " грамм или " + weightBreakfastKg + " килограмм");
         System.out.println();
-
+    }
+    public static void Task7()
+    {
         System.out.println("Задача 7");
 
         int needLoseWeightKg = 7;
@@ -115,7 +143,9 @@ public class Main {
                 " грамм в день, то цели он достигнет за " + slowWeightLossDaySum + " дней");
         System.out.println("Потребуется " + middleWeightLossDaySum + " дней в среднем для достижения результата похудения");
         System.out.println();
-
+    }
+    public static void Task8()
+    {
         System.out.println("Задача 8");
 
         double salaryMonthMasha = 67760;
@@ -147,7 +177,33 @@ public class Main {
 
 
         System.out.println();
+    }
+    public static void Task6Ext()
+    {
+        System.out.println("Задача 6(Повышенной сложности)");
 
-
+        int a = 12, b = 27, c = 44, d = 15, e = 9;
+        int result = a * (b + (c - d * e));
+        result *= -1;
+        System.out.println(result);
+        System.out.println();
+    }
+    public static void Task7Ext()
+    {
+        System.out.println("Задача 7(Повышенной сложности)");
+        int a = 5, b = 7;
+        b = b - a;
+        a = a + b;
+        b = a - b;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println();
+    }
+    public static void  Task8Ext()
+    {
+        System.out.println("Задача 8(Повышенной сложности)");
+        double a = 999;
+        double b = ((a/100) - (int)(a/100)) * 10;
+        System.out.println((int)b);
     }
 }
